@@ -14,8 +14,8 @@ docker build -t cedar-postgres .
 
 docker login
 
-docker tag cedar-postgres metadatacenter/cedar-postgres:0.1.0
-docker push metadatacenter/cedar-postgres:0.1.0
+docker tag cedar-postgres metadatacenter/cedar-postgres:1.0.6
+docker push metadatacenter/cedar-postgres:1.0.6
 
 docker tag cedar-postgres metadatacenter/cedar-postgres:latest
 docker push metadatacenter/cedar-postgres:latest
